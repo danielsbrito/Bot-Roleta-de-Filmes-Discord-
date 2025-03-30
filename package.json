@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
     "discord.js": "^14.18.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "rss-parser": "^3.13.0"
   },
   "name": "bot-discord-roleta-filmes",
   "version": "1.0.0",
