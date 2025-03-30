@@ -204,7 +204,7 @@ module.exports = {
             .addFields(
                 { 
                     name: perdeu ? '💀 Você perdeu!' : '🎉 Você sobreviveu!', 
-                    value: `Configuração: ${balas} ruim${balas !== 1 ? 's' : ''} | ${6-balas} bom${6-balas !== 1 ? 's' : ''}`
+                    value: `Configuração: ${balas} ${balas == 1 ? 'bala': ''} ${balas !== 1 ? 'balas' : ''} | ${6-balas} ${6-balas == 1 ? 'festim' : ''}${6-balas !== 1 ? 'festins' : ''}`
                 }
             );
 
